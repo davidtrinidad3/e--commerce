@@ -1,0 +1,250 @@
+.cuerpo__contacto{
+    display: flex;
+    padding: 50px 0 50px 0px;
+    background-color: #f0fffcc2;
+    justify-content: center;
+}
+
+.contacto__parrafo{
+    display: flex;
+    padding: 50px 0 50px 160px;
+}
+
+.informaciones{
+    display: flex;
+}
+
+.contactos__parrafos{
+    margin: 0 140px 0 140px;
+    
+}
+
+.parrafo__contacto{
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__sub-titulo{
+    color: #333;
+}
+
+.contacto__1{
+    position: relative; 
+}
+
+.contacto__nombre{
+    height: 2.25rem;
+    width: 37.4rem;
+    font-size: 1rem;
+    margin: 8px 0 0px 0;
+    padding: 1.2rem 0 0 0.75rem;
+    border: outset;
+}
+
+.fijado-nombre{
+    position: absolute;
+    top: 0.95rem;
+    left: 1rem;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.contacto__Escribenos{
+    width: 37.25rem;
+    height: 5.25rem;
+    margin: 20px 30px 5px 0;
+    padding: 20px 0 0 16px;
+    font-size: 1rem;
+    border: outset;
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+}
+
+.enviar__mensaje{
+    width: 7rem;
+    height: 2.2rem;
+    font-size: 12px;
+    transition: .3s all;
+    cursor: pointer;
+    background-color: #bed2d2;
+    border: outset;
+    color: #444; 
+}
+
+.enviar__mensaje:hover{
+    background-color: #abc8c8;
+    transform: scale(1.07);
+}
+
+.enviar__mensaje:active {
+    transform: scale(0.9);
+}
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalid input {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.input-container--invalid .input-message-error {
+    color: rgb(231, 29, 29);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+
+}
+
+.input-message-error{
+    display: none;
+}
+
+
+/*Todo*/
+
+@media (max-width: 1440px){
+
+    .contacto__nombre{
+        
+        width: 31.5rem;
+        
+    }
+
+    .contacto__Escribenos{
+
+        width: 31.6rem;
+
+    }
+
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .informaciones{
+        flex-direction: column;
+    }
+
+    .contacto__sub-titulo{
+        font-size: 2rem;
+    }
+
+    .cuerpo__contacto{
+        padding: 50px 0 50px 75px;
+        justify-content: flex-start;
+    }
+
+    .imagen-logo__contacto{
+        height: 6rem;
+        margin-bottom: 20px;
+    }
+
+    .contactos__parrafos{
+        margin: 0 0 0 10px;
+        font-size: 2rem;
+    }
+
+    .contacto{
+        margin: 1rem 0 0 10rem;
+    }
+
+    .contacto__nombre{
+        width: 40.2rem;
+        height: 3.5rem;
+        margin: 12px 0 35px 0;
+        padding: 2.2rem 0 0 1.25rem;
+        font-size: 1.75rem;
+    }
+
+    .fijado-nombre{
+        top: 1.25rem;
+        font-size: 1.5rem;
+        left: 1.3rem;
+        color: #777;
+    }
+
+    .contacto__Escribenos{
+        height: 7rem;
+        width: 40.4rem;
+        font-size: 1.75rem;
+        padding: 30px 0 0 23px;
+    }
+
+    .enviar__mensaje{
+        margin-top: 1rem;
+        height: 4rem;
+        width: 15rem;
+        font-size: 1.7rem;
+    }
+}
+
+/*MOBILE*/
+
+@media (max-width: 426px){
+    
+    .cuerpo__contacto {
+        padding: 50px 0 50px 0px;
+        flex-direction: column;
+    }
+
+    .informaciones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen-logo__contacto {
+        height: 10rem;
+        margin-bottom: 50px;
+    }
+
+    .parrafo__contacto {
+        cursor: pointer;
+        margin-bottom: 40px;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .contacto {
+        margin: 55px 0 0 75px;
+    }
+
+    .contacto__sub-titulo {
+        font-size: 3.5rem;
+    }
+
+    .contacto__nombre {
+        height: 6rem;
+        width: 70.5rem;
+        font-size: 3rem;
+        margin: 25px 0 70px 0;
+        padding: 4.2rem 0 0 2.25rem;
+    }
+
+    .fijado-nombre{
+        top: 2.85rem;
+        font-size: 3rem;
+        left: 2.2rem;
+    }
+
+    .contacto__Escribenos {
+        height: 13rem;
+        width: 70.5rem;
+        font-size: 2.75rem;
+        padding: 45px 0 0 35px;
+    }
+
+    .enviar__mensaje {
+        height: 7rem;
+        width: 22rem;
+        font-size: 2.2rem;
+    }
+
+}

@@ -1,0 +1,155 @@
+.cabecera{
+    display: flex;
+    padding: 20px 0 20px 60px;
+    background-color: #a3c7c780;
+    border-bottom: 3px #d2d0c8 inset;
+}
+
+.cabecera__div{
+    height: 6rem;
+    display: flex;
+    
+}
+
+.cabecera__logo{
+    margin: 23px 0 0 100px;
+    height: 3rem;
+}
+
+.cabecera__busqueda{
+    margin: 27px 0 0 75px;
+    padding-left: 13px;
+    height: 2.5rem;
+    width: 23rem;
+    font-size: 14px;
+    border-radius: 1.5rem 0 0 1.5rem;
+    background: #f9f5efcc;
+    border: none;
+    
+}
+
+.cabecera__lupa{
+    display: flex;
+    background-image: url(/imagenes/Icone.png);
+    background-repeat: no-repeat;
+    border-radius: 0 1.5rem 1.5rem 0;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: #f9f5efcc;
+    width: 3rem;
+    height: 2.5rem;
+    margin-top: 27px;
+    border: none;
+}
+
+.cabecera__boton{
+    margin: 25px 0 0 375px;
+    font-size: 22px;
+    padding: 8px 45px 2px;
+    text-decoration: none;
+    height: 2rem;
+    border: 4px groove #ffffffbd;
+    background-color: #8f8f8f57;
+    border-radius: 8px;
+    color: #535353;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+a:hover {
+    transform: scale(1.07);
+}
+
+a:active {
+    transform: scale(0.9);
+}
+
+/* todo */
+
+@media (max-width: 1024px) {
+
+    .todo{
+        width: 85rem;
+    }
+}
+
+@media (max-width: 1355px) {
+
+    .todo{
+        width: 85rem;
+    }
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .cabecera__logo{
+        margin: 5px 0 0 5px;
+        height: 5rem;
+    }
+
+    .cabecera__busqueda{
+        border-radius: 3rem 0 0 3rem;
+        width: 28rem;
+        height: 4.5rem;
+        margin: 8px 0px 0 50px;
+        font-size: 1.6rem;
+        background-size: 2.5rem;
+        background-position-x: 26rem;
+    }
+
+    .cabecera__lupa{
+        width: 5rem;
+        height: 4.5rem;
+        margin-top: 8px;
+        border-radius: 0 3rem 3rem 0;
+        background-size: 2.5rem;
+    }
+
+    .cabecera__boton{
+        margin: 10px 0 0 120px;
+        padding: 18px 70px;
+        font-size: 1.8rem;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+
+    .cabecera{
+        height: 14rem;
+    }
+    
+    .cabecera__logo{
+        height: 6rem;
+        margin: 60px 0 0 0;
+    }
+
+    .cabecera__boton{
+        order: 1;
+        margin: 30px 0 0 150px;
+        font-size: 4.5rem;
+        padding: 20px 165px 75px;
+        border: 7px groove;
+    }
+
+    .cabecera__busqueda {
+        display:none
+    }
+
+    
+
+    .cabecera__lupa{
+        order: 2;
+        margin: 55px 0 0 110px;
+        height: 6.9rem;
+        width: 9rem;
+        background-size: 7rem;
+        background-color: transparent;
+    }
+
+    
+}
+

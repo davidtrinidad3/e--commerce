@@ -1,0 +1,97 @@
+.cabecera__nav {
+    padding-top: 5rem;
+    background: linear-gradient(180deg,#a3c7c74a,#d2d0c8,#d2d0c8,#d2d0c8,#d2d0c8,#d2d0c8,#d2d0c8);
+}
+
+.cabecera__div__2{
+    display: flex;
+
+}
+
+.cabecera__img__caratula{
+    display: flex;
+    width: 100%;
+}
+
+.cabecera__titulo{
+    position: absolute;
+    margin: 140px 0 0 160px;
+    font-size: 2.5rem;
+    color: #dbfcf5;
+    background-color: transparent;
+}
+
+.cabecera__parrafo{
+    position: absolute;
+    margin: 220px 0 0 160px;
+    font-size: 1.2rem;
+    color: #dbfcf5;
+    background-color: transparent;
+}
+
+.cabecera__boton__consola{
+    position: absolute;
+    margin: 280px 0 0 160px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0.4rem;
+    color: #dbfcf5;
+    background-color: #8ca99bd6;
+    border: inset;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.sub-titulo{
+    display: flex;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .cabecera__titulo{
+        margin: 21px 0 0 75px;
+        font-size: 4.25rem;
+    }
+    
+    .cabecera__parrafo{
+        
+        margin: 175px 0 0 75px;
+        font-size: 1.9rem;   
+    }
+
+    .cabecera__boton__consola{
+        margin: 248px 0 0 75px;
+        padding: 12px 10px;
+        font-size: 1.8rem;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+
+    .cabecera__img__caratula{
+        height: 25rem;
+    }
+
+    .cabecera__titulo {
+
+        font-size: 4rem;
+    }
+
+    .cabecera__parrafo {
+        width: 55rem;
+        margin: 183px 0 0 70px;
+        font-size: 2.23rem;
+    }
+
+    .cabecera__boton__consola {
+        margin: 260px 0 0 75px;
+        padding: 20px;
+        font-size: 2.8rem;
+    }
+
+}

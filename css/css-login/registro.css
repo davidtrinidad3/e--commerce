@@ -1,0 +1,111 @@
+.registros__login{
+    display: flex;
+    padding: 6rem 32rem;
+    justify-content: center;
+    background-color: #689f9aa8;
+}
+
+.registros{
+    display: flex;
+    flex-direction: column;
+}
+
+.registro__titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.registro__email {
+    height: 2.5rem;
+    width: 29rem;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.registro__contraseña{
+    height: 2.5rem;
+    width: 29rem;
+    margin: 28px 0 0px 0;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.registros__enviar{
+    margin-top: 28px;
+    height: 2.5rem;
+    font-size: 1rem; 
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.registros__enviar:hover{
+    background-color: #4e9c9796;
+    transform: scale(1.07);
+}
+
+.registros__enviar:active {
+    transform: scale(0.9);
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .registros{
+        align-items: center;
+    }
+
+    .registro__titulo{
+        font-size: 2.5rem;
+    }
+
+    .registro__email{
+        height: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+    .registro__contraseña{
+        height: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+    .registros__enviar{
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+
+    .registros__login{
+        padding: 20rem 10rem;
+    }
+
+    .registro__titulo{
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    .registro__email {
+        height: 5.5rem;
+        width: 50rem;
+        font-size: 2.2rem;
+    }
+
+    .registro__contraseña{
+        height: 5.5rem;
+        width: 50rem;
+        font-size: 2.2rem;
+    }
+    .registros__enviar{
+        height: 5.5rem;
+        width: 18rem;
+        font-size: 2.2rem;
+    }
+}
+

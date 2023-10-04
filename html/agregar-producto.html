@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> E-commerce</title>
+    <link rel="icon" href="/imagenes/e-commerce.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/css-agregarProductos/cabecera.css" />
+    <link rel="stylesheet" href="/css/css-agregarProductos/agregar.css" />
+    <link rel="stylesheet" href="/css/css-agregarProductos/contacto.css" />
+    <link rel="stylesheet" href="/css/css-agregarProductos/footer.css" />
+</head>
+<body>
+     <div class="todo-4">
+          <header class="cabecera">
+               <div class="cabecera__div">
+                    <a href="/index.html">
+                         <img class="cabecera__logo" src="/imagenes/Logo.png">
+                     </a>
+                    <input class="cabecera__busqueda" type="texto" placeholder="¿Que desea buscar?">
+                    <button class="cabecera__lupa" ></button>
+                    <a href="/index.html" class="cabecera__boton">Menú Administrador</a>
+               </div>
+          </header>
+
+          <main>
+          
+               <section class="agregar__producto">
+                    <div class="agregados">
+                         <div class="agregar__titulo">
+                         <h2 class="agragar-producto__titulo">Agregar nuevo producto</h2>
+                         </div>
+                         <div class="agregación">
+                              <input class="agragación__informacion" type="text" placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAA.png">
+                              <label class="informacion__fijado" for="nombre">URL de imagen</label>
+                         </div>
+                         <div class="agregación">
+                              <input class="agragación__informacion" type="text" placeholder="Producto XYZ">
+                              <label class="informacion__fijado" for="nombre">Nombre del producto</label>
+                         </div>
+                         <div class="agregación">
+                              <input class="agragación__informacion" type="text" placeholder="$ 60.00">
+                              <label class="informacion__fijado" for="nombre">Precio de producto</label>
+                         </div>
+                         <div class="agregación">
+                              <input class="agragación__informacion" type="text" placeholder="#19, #20 ...">
+                              <label class="informacion__fijado" for="nombre">código</label>
+                         </div>
+                         <div>
+                              <button class="agregar-producto__buttom">Agregar producto</button>
+                         </div>
+                    </div>
+               </section>
+
+               <section class="cuerpo__contacto" >
+                    <div class="informaciones">
+                         <div class="contacto__logo">
+                              <a href="/index.html">
+                                   <img class="imagen-logo__contacto" src="/imagenes/Logo.png" alt="logo">
+                              </a>
+                         </div>
+                         <div class="contactos__parrafos">
+                              <p  class="parrafo__contacto">Quienes somos</p>
+                              <p  class="parrafo__contacto">Política de privacidad</p>
+                              <p  class="parrafo__contacto">Programa de fidelidad</p>
+                              <p  class="parrafo__contacto">Nuestras tiendas</p>
+                              <p  class="parrafo__contacto">Quiero ser franquisiado</p>
+                              <p  class="parrafo__contacto">Anúncie aquí</p>
+                         </div>
+                    </div>
+                    <form class="contacto">
+                         <h4 class="contacto__sub-titulo">Hable con nosotros</h4>
+                         <div class="contacto__1">
+                              <input class="contacto__nombre" type="text" placeholder="André Lisboa" required pattern="[\s\S]{2,30}" data-tipo="nombre">
+                              <label class="fijado-nombre" for="nombre">Nombre</label>
+                              <span class="input-message-error">Este campo no es valido</span>
+                         </div>
+                         <div class="contacto__2">
+                              <textarea class="contacto__Escribenos" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea> 
+                         </div>
+                         <div>
+                              <button type="submit" class="enviar__mensaje">Enviar mensaje</button>
+                         </div>
+                    </form>
+               </section>
+               <section class="cuerpo__footer">
+                    <div class="footer__creador">
+                         <p class="footer__parrafo__1">Desarrollado Por DAVID TRINIDAD</p>
+                         <p class="footer__parrafo__2">2023</p>
+                    </div>
+               </section>
+          
+          </main>
+     </div>
+     <script type="module" src="/js/app.js"></script>
+</body>
+</html>

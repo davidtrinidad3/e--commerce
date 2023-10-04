@@ -1,0 +1,37 @@
+.Consolas {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 160px 10px;
+}
+
+.enlace__ver-todo{
+    font-weight: bold;
+}
+
+.sub-titulo{
+    padding-bottom: 15px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .Consolas{
+        padding: 50px 75px 10px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+
+    .Consolas {
+        padding: 50px 100px 10px 70px;
+    }
+
+}

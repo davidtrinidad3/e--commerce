@@ -1,0 +1,161 @@
+.cabecera{
+    display: flex;
+    padding: 20px 0 20px 60px;
+    background-color: #a3c7c780;
+    border-bottom: 3px #d2d0c8 inset;
+}
+
+.cabecera__div{
+    height: 6rem;
+    display: flex;
+    
+}
+
+.cabecera__logo{
+    margin: 23px 0 0 100px;
+    height: 3rem;
+}
+
+.cabecera__busqueda{
+    margin: 27px 0 0 75px;
+    padding-left: 13px;
+    height: 2.5rem;
+    width: 23rem;
+    font-size: 14px;
+    border-radius: 1.5rem 0 0 1.5rem;
+    background: #f9f5efcc;
+    border: none;
+    
+}
+
+.cabecera__lupa{
+    display: flex;
+    background-image: url(/imagenes/Icone.png);
+    background-repeat: no-repeat;
+    border-radius: 0 1.5rem 1.5rem 0;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: #f9f5efcc;
+    width: 3rem;
+    height: 2.5rem;
+    margin-top: 27px;
+    border: none;
+}
+
+.cabecera__boton{
+    margin: 21px 80px 0 350px;
+    height: 3.2rem;
+    width: 11rem;
+    border: 4px groove #d1d1d1;
+    background-color: #8f8f8f57;
+    border-radius: 8px;
+    color: #535353;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.07);
+}
+
+a:active {
+    transform: scale(0.9);
+}
+
+/* todo */
+
+@media (max-width: 1024px) {
+
+    .todo{
+        width: 85rem;
+    }
+}
+
+@media (max-width: 1355px) {
+
+    .todo{
+        width: 85rem;
+    }
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .cabecera__logo{
+        margin: 12px 0 0 5px;
+        height: 4rem;
+    }
+
+    .cabecera__busqueda{
+        border-radius: 3rem 0 0 3rem;
+        width: 28rem;
+        height: 4.5rem;
+        margin: 8px 0px 0 50px;
+        font-size: 1.6rem;
+        background-size: 2.5rem;
+        background-position-x: 26rem;
+    }
+
+    .cabecera__lupa{
+        width: 5rem;
+        height: 4.5rem;
+        margin-top: 8px;
+        border-radius: 0 3rem 3rem 0;
+        background-size: 2.5rem;
+    }
+
+    .cabecera__boton{
+        margin: 10px 60px 0 290px;
+        width: 18rem;
+        height: 5rem;
+        font-size: 1.8rem;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+
+    .cabecera{
+        height: 14rem;
+    }
+    
+    .cabecera__logo{
+        height: 8rem;
+        margin: 50px 0 0 0;
+    }
+
+    .cabecera__boton{
+        height: 10rem;
+        width: 38rem;
+        margin: 30px 0 0 160px;
+        font-size: 3.5rem;
+        padding: 0;
+        border: 7px groove;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecera__busqueda {
+        display:none
+    }
+
+    
+
+    .cabecera__lupa{
+
+        display: none;
+    }
+}
+
+@media (max-width: 376px){
+    .cabecera__boton{
+        width: 170vw;
+    }
+}
