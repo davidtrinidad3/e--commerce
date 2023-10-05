@@ -30,7 +30,7 @@
 
 .cabecera__lupa{
     display: flex;
-    background-image: url(/imagenes/Icone.png);
+    background-image: url(/imagenes/Hero.png);
     background-repeat: no-repeat;
     border-radius: 0 1.5rem 1.5rem 0;
     background-position-x: center;
